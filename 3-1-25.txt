@@ -1,0 +1,24 @@
+steps for git and github
+
+1)create account in githb
+
+2) create a repo 
+	-https://github.com/harivallika/training.git
+3)open vscode and open terminal
+
+4)initilize git in terminal
+	-git init
+
+5)configure user-name and email to github
+	-git config --global user.name "harivallika"
+	-git config --global user.gmail "harivallika.2004@gmail.com"
+
+6)add remote url to the local repo
+	-git remote add origin https://github.com/harivallika/training.git
+
+7)convert untracked filles to tracked files
+	-git add .
+	-git commit -m "any message"
+
+8)push to github
+	-git push -u origin master
